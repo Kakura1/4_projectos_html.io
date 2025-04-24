@@ -1,0 +1,50 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Tuffy, Arial, sans-serif;
+    font-size: 1.6rem;
+    overflow: hidden;
+    color: white;
+}
+
+.layout__video{
+    width: 100%;
+    height: 100%;
+}
+
+.layout__content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content__title{
+    font-size: 7rem;
+    text-shadow: 0 0 1.5rem rgb(132, 82, 212);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.content__btn{
+    display: block;
+    width: 16rem;
+    border: 2px solid white;
+    background-color: white;
+    padding: 2rem;
+    color: rgb(132, 82, 212);
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: all 300ms ease;
+    border-radius: 5px;
+}
+
+.content__btn:hover{
+    background-color: rgb(132, 82, 212);
+    color:white;
+}
