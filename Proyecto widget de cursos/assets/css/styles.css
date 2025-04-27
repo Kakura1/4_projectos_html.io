@@ -5,6 +5,7 @@ html{
 body{
     font-family: Tuffy, Arial, Helvetica, sans-serif;
     font-size: 1.6rem;
+    background-color: rgb(194, 185, 231);
 }
 
 .layout{
@@ -15,7 +16,25 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(194, 185, 231);
+}
+
+.layout__btn{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    text-decoration: none;
+    background-color: rgba(105, 67, 209, 0.25);
+    padding: 2rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.layout__btn:hover{
+    background-color: rgba(61, 26, 158, 0.75);
 }
 
 .layout__main{
