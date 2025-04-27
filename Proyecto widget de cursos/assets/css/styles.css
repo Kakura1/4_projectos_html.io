@@ -1,0 +1,76 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Tuffy, Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+
+.layout{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194, 185, 231);
+}
+
+.layout__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__title{
+    font-weight: bolder;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.main__card{
+    width: 35rem;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+.card__container-img{
+    margin-bottom: 2rem;
+}
+
+.card__img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card__price{
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(221, 148, 53);
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.card__btn{
+    display: inline-block;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 5px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(221, 148, 53);
+    color: white;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.card__btn:hover{
+    background-color: rgb(187, 122, 37);
+}
